@@ -359,9 +359,9 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div id="id="european-qualifications">
             <h2 style="font-size: 60px; color: white;"><strong>European Qualifications</strong></h2>
-            <div class="qualified"><div class="img-container"><img  src="logos/CL.png" style="width: 50px; height: auto;"/></div> <span id="champions-league" style="font-size: 30px; color: black;"> ${championsLeague.join(', ')}</span></div>
-            <div class="qualified"><div class="img-container"><img  src="logos/EL.svg" style="width: 50px; height: auto;"/></div> <span id="europa-league" style="font-size: 30px; color: black;">${europaLeague.join(', ')}</span></div>
-            <div class="qualified"><div class="img-container"><img  src="logos/UCL.png"  style="width: 50px; height: auto;"/></div> <span id="conference-league" style="font-size: 30px; color: black;">${conferenceLeague.join(', ')}</span></div>
+            <div class="qualified"><div class="img-container"><img  src="logos/CL.png" style="width: 50px; height: auto;"/></div> <span id="champions-league" style="font-size: 30px; color: black;">Champions League: ${championsLeague.join(', ')}</span></div>
+            <div class="qualified"><div class="img-container"><img  src="logos/EL.svg" style="width: 50px; height: auto;"/></div> <span id="europa-league" style="font-size: 30px; color: black;">Europa League: ${europaLeague.join(', ')}</span></div>
+            <div class="qualified"><div class="img-container"><img  src="logos/UCL.png"  style="width: 50px; height: auto;"/></div> <span id="conference-league" style="font-size: 30px; color: black;">Europa Conference League: ${conferenceLeague.join(', ')}</span></div>
     
             </div>
            
