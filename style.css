@@ -1,0 +1,212 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.secondary-container {
+    flex-basis: 50%;
+  flex-grow: 0;
+}
+
+h1 {
+    text-align: center;
+    background-image:url(logos/header-bg.svg);
+    color: #fff;
+    padding: 10px;
+    background-size: cover;
+    max-width: 618px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 img {
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 30px;
+    margin: 5px 0;
+    background-color: #ececec;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: move;
+}
+
+li.dragging {
+    opacity: 0.5;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.rank-1 {
+    background-color: gold;
+    color: black;
+}
+
+.rank-2, .rank-3, .rank-4 {
+    background-color: silver;
+    color: black;
+}
+
+.rank-5, .rank-6, .rank-7 {
+    background-color: #CD7F32;
+    color: black;
+}
+
+.rank-18, .rank-19, .rank-20 {
+    background-color: red;
+    color: white;
+}
+
+/* Optional: Add some padding and margin to the list items for better appearance */
+#teams-list li {
+    padding: 25px;
+    margin: 4px 0;
+    border-radius: 4px;
+    cursor: grab;
+}
+
+#teams-list li:after {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    background-size: 80% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* style.css */
+.cup-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.cup-container h2 {
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    margin-bottom: 15px;
+}
+
+.dropdown label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dropdown select {
+    width: 100
+}
+
+#save-button {
+    display: block;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: 0px;
+    border-radius: 3px;
+    background-image: linear-gradient(to right, rgb(0, 255, 135), rgb(2, 239, 255));
+    color: rgb(55, 0, 60);
+    font-family: PremierSans-Bold, Arial, "Helvetica Neue", Helvetica, sans-seriff;
+    font-size: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px -4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 700;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 1rem 1rem;
+    border: 0px;
+    border-radius: 2px 2px 0px 0px;
+    background-color: rgb(239, 239, 239);
+    font-family: 'Roboto';
+    font-size: 16px;
+    display: block;
+}
+
+.dropdown-container label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+select:after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(2, 239, 255), rgb(150, 60, 255));
+}
+
+.qualified {
+    background-image:url(logos/header-bg.svg);
+    color: #fff;
+    padding: 10px;
+    background-size: cover;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.qualified .img-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    background-size: 60% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.qualified .img-container img {
+    width: 80% !important;
+    height: auto !important;
+}
